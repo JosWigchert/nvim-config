@@ -1,0 +1,3 @@
+require("jos")
+
+print("Init")
