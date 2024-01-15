@@ -1,3 +1,1 @@
 require("jos")
-
-print("Init")
