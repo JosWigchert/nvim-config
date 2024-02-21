@@ -10,6 +10,9 @@ Open Neovim and run :PackerSync
 
 Restart Neovim and everything should be installed
 
+# Windows Requirements
+
+A C compiler `['cc', 'gcc', 'clang', 'cl', 'zig']`
 
 # Shortcuts
 
