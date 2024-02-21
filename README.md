@@ -6,7 +6,7 @@ Install the package manager Packer for Neovim:
 Clone the repo using:
 `git clone git@github.com:JosWigchert/nvim-config.git ~/.config/nvim`
 
-Open Neovim and run :PackerSync
+Open Neovim (ignore all the errors) and run :PackerSync
 
 Restart Neovim and everything should be installed
 
