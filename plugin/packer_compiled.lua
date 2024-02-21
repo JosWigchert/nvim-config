@@ -150,6 +150,11 @@ _G.packer_plugins = {
     path = "/home/jos/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["telescope-diff.nvim"] = {
+    loaded = true,
+    path = "/home/jos/.local/share/nvim/site/pack/packer/start/telescope-diff.nvim",
+    url = "https://github.com/jemag/telescope-diff.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/jos/.local/share/nvim/site/pack/packer/start/telescope.nvim",
