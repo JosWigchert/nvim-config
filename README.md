@@ -43,7 +43,7 @@ A C compiler `cc`, `gcc`, `clang`, `cl`
 | \<leader\>pf | n    | Find file in project                                  |
 | \<C-p\>      | n    | Find file in git                                      |
 | \<leader\>ps |      | Find text in project files                            |
-| **Diff     **|      |                                                       |
+| **Diff**     |      |                                                       |
 | \<leader\>sC | n    | Diff two files selected by telescope                  |
 | \<leader\>sc | n    | Diff current file with one selected by telescope      |
 | **Harpoon**  |      |                                                       |
