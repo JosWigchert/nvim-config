@@ -6,10 +6,13 @@ Install the package manager Packer for Neovim:
 Clone the repo using:
 `git clone git@github.com:JosWigchert/nvim-config.git ~/.config/nvim`
 
-Open Neovim and run :PackerSync
+Open Neovim (ignore all the errors) and run :PackerSync
 
 Restart Neovim and everything should be installed
 
+# Windows Requirements
+
+A C compiler `['cc', 'gcc', 'clang', 'cl', 'zig']`
 
 # Shortcuts
 
@@ -22,6 +25,7 @@ Restart Neovim and everything should be installed
 | \<Alt-Up\>   | i    | Move current line up                                  |
 | \<Alt-Down\> | i    | Move current line down                                |
 | \<leader\>p  | x    | Paste copied buffer over word without reyanking       |
+| \<C-s\>      | n    | Save the current open file                            |
 | **Coding**   |      |                                                       |
 | gd           | n    | Jump to the definition                                |
 | K            | n    | Open the hover menu for more information              |
@@ -37,6 +41,9 @@ Restart Neovim and everything should be installed
 | \<leader\>pf | n    | Find file in project                                  |
 | \<C-p\>      | n    | Find file in git                                      |
 | \<leader\>ps |      | Find text in project files                            |
+| **Diff     **|      |                                                       |
+| \<leader\>sC | n    | Diff two files selected by telescope                  |
+| \<leader\>sc | n    | Diff current file with one selected by telescope      |
 | **Harpoon**  |      |                                                       |
 | \<leader\>a  | n    | Add current file to harpoon                           |
 | \<C-e\>      | n    | Open harpoon window                                   |
@@ -51,5 +58,7 @@ Restart Neovim and everything should be installed
 | \<C-k\>      | i    | Select previous completion                            |
 | \<Tab\>      | i    | Use selected (or first) completion                    |
 | \<C-Space\>  | i    | Open completions field                                |
+| **Formatter**|      |                                                       |
+| \<C-f\>      | n    | Format the current file                               |
 | **UndoTree** |      |                                                       |
 | \<leader\>u  | n    | Open the UndoTree                                     |
