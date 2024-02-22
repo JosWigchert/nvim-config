@@ -22,8 +22,10 @@ A C compiler `['cc', 'gcc', 'clang', 'cl', 'zig']`
 | \<leader\>pv | n    | Go back to file explorer                              |
 | J            | v    | Move selected lines up                                |
 | K            | v    | Move selected lines down                              |
-| \<Alt-Up\>   | i    | Move current line up                                  |
-| \<Alt-Down\> | i    | Move current line down                                |
+| \<Alt-j\>    | i v n| Move current line up                                  |
+| \<Alt-k\>    | i v n| Move current line down                                |
+| \<Alt-Up\>   | i v n| Move current line up                                  |
+| \<Alt-Down\> | i v n| Move current line down                                |
 | \<leader\>p  | x    | Paste copied buffer over word without reyanking       |
 | \<C-s\>      | n    | Save the current open file                            |
 | **Coding**   |      |                                                       |
